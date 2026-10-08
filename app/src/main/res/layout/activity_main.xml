@@ -20,7 +20,7 @@
 <CheckBox android:id="@+id/c2" android:text="Problem solved independently (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 <CheckBox android:id="@+id/c3" android:text="Code written independently (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 <CheckBox android:id="@+id/c4" android:text="Explained in own words (+10)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-<CheckBox android:id="@+id/c5" android:text="Mistake found & fixed (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c5" android:text="Mistake found &amp; fixed (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 <CheckBox android:id="@+id/c6" android:text="Practice / Revision (+10)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 <CheckBox android:id="@+id/c7" android:text="Wall / hard problem attempt (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 </LinearLayout>
