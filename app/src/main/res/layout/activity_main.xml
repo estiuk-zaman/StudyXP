@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="🎮 Study XP" android:textSize="30sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvLevel" android:textSize="18sp" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvXp" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvStreak" android:textSize="18sp" android:layout_marginTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<ProgressBar android:id="@+id/progress" style="?android:attr/progressBarStyleHorizontal" android:max="500" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="12dp"/>
+<TextView android:id="@+id/tvReward" android:textSize="16sp" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginVertical="16dp" android:background="#DDDDDD"/>
+<TextView android:text="Focus Session" android:textSize="20sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/tvTimer" android:text="00:00" android:textSize="42sp" android:layout_gravity="center_horizontal" android:layout_margin="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+<Button android:id="@+id/btnStart" android:text="Start" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnStop" android:text="Finish" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+</LinearLayout>
+<TextView android:text="Bonus XP" android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+<CheckBox android:id="@+id/c1" android:text="Concept understood independently (+10)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c2" android:text="Problem solved independently (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c3" android:text="Code written independently (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c4" android:text="Explained in own words (+10)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c5" android:text="Mistake found & fixed (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c6" android:text="Practice / Revision (+10)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<CheckBox android:id="@+id/c7" android:text="Wall / hard problem attempt (+15)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+<Button android:id="@+id/btnAddBonus" android:text="Add Bonus XP" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnPenalty" android:text="Add Scrolling Penalty" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnUsage" android:text="Check App Usage / Setup" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnHistory" android:text="Today's Summary" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
